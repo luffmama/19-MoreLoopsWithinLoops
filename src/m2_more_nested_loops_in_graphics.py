@@ -69,7 +69,7 @@ def draw_upside_down_wall(rectangle, n, window):
         p2x = rectangle.get_lower_left_corner().x - (j+1)*0.5*w
         p1y = p1y - h
         p2y = p2y - h
-    window.render()
+    window.render(0.1)
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
