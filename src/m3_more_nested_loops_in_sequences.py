@@ -83,7 +83,6 @@ def largest_number(seq_seq):
     for k in range(len(seq_seq)):
         if seq_seq[k] == type(int):
             continue
-            return None
     max = -math.inf
     for k in range(len(seq_seq)):
         for j in range(len(seq_seq[k])):
